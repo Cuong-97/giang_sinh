@@ -1,0 +1,36 @@
+:root {
+    --color-white: hsl(252, 30%, 100%);
+    --color-primary: rgb(29, 50, 157);
+    --color-red: rgb(247, 54, 99);
+    --color-blue: rgb(2, 150, 243);
+    --color-primary-2: #ffc8c9;
+    --color-primary-3: #c8f9ff;
+}
+
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    border: none;
+    scroll-behavior: smooth;
+}
+body{
+    display: flex;
+    font-family: "Poppins", sans-serif;
+    width: 100vw;
+    height: auto;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+video {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+  }
