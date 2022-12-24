@@ -40,7 +40,7 @@ video {
     color: rgb(254, 100, 100);
     position: relative;
     top: 40vh;
-    left: -40px;
+    left: -38px;
     font-size: 24px;
 }
     .text_1{
@@ -147,7 +147,7 @@ video {
             }
             to {
                 opacity: 1;
-                top: 60px;
+                top: 80px;
                 color: rgb(254, 100, 100);
             }
         }
