@@ -33,4 +33,273 @@ video {
     top: 0;
     left: 0;
     object-fit: cover;
-  }
+}
+.text{
+    font-family: 'Pacifico', cursive;
+    z-index: 100;
+    color: rgb(254, 100, 100);
+    position: relative;
+    top: 40vh;
+    left: -40px;
+    font-size: 24px;
+}
+    .text_1{
+        position: absolute;
+        left: 72px;
+        animation: show_1 ease 2s;
+    }
+        @keyframes show_1 {
+            from {
+                opacity: 0;
+                top: -390px;
+                color: rgb(255, 255, 255);
+            }
+            to {
+                opacity: 1;
+                top: 0;
+                color: rgb(254, 100, 100);
+            }
+    }
+
+    .text_2{
+        position: absolute;
+        left: 144px;
+        animation: show_2 ease 2.5s;
+    }
+        @keyframes show_2 {
+            from {
+                opacity: 0;
+                top: -390px;
+                color: rgb(255, 255, 255);
+            }
+            to {
+                opacity: 1;
+                top: 0;
+                color: rgb(254, 100, 100);
+            }
+        }
+        
+    .text_3{
+        position: absolute;
+        left: 172px;
+        animation: show_3 ease 3s;
+    }
+        @keyframes show_3 {
+            from {
+                opacity: 0;
+                top: -390px;
+                color: rgb(255, 255, 255);
+            }
+            to {
+                opacity: 1;
+                top: 0;
+                color: rgb(254, 100, 100);
+            }
+        }
+
+    .text_4{
+        position: absolute;
+        left: 202px;
+        animation: show_4 ease 3.5s;
+    }
+        @keyframes show_4 {
+            from {
+                opacity: 0;
+                top: -390px;
+                color: rgb(255, 255, 255);
+            }
+            to {
+                opacity: 1;
+                top: 0;
+                color: rgb(254, 100, 100);
+            }
+        }
+        
+    .text_5{
+        position: absolute;
+        left: 234px;
+        animation: show_5 ease 4s;
+    }
+        @keyframes show_5 {
+            from {
+                opacity: 0;
+                top: -390px;
+                color: rgb(255, 255, 255);
+            }
+            to {
+                opacity: 1;
+                top: 0;
+                color: rgb(254, 100, 100);
+            }
+        }
+        
+    .text_6{
+        position: absolute;
+        left: 136px;
+        top: 80px;
+        animation: show_6 ease-in-out 4s;
+    }
+        @keyframes show_6 {
+            from {
+                opacity: 0;
+                top: -390px;
+                color: rgb(255, 255, 255);
+            }
+            to {
+                opacity: 1;
+                top: 60px;
+                color: rgb(254, 100, 100);
+            }
+        }
+        
+    .text_7{
+        position: absolute;
+        left: 180px;
+        top: 80px;
+        animation: show_7 ease-in-out 4.5s;
+    }
+        @keyframes show_7 {
+            from {
+                opacity: 0;
+                top: -390px;
+                color: rgb(255, 255, 255);
+            }
+            to {
+                opacity: 1;
+                top: 80px;
+                color: rgb(254, 100, 100);
+            }
+        }
+
+    .text_8{
+        position: absolute;
+        left: 206px;
+        top: 80px;
+        animation: show_8 ease-in-out 5s;
+    }
+        @keyframes show_8 {
+            from {
+                opacity: 0;
+                top: -390px;
+                color: rgb(255, 255, 255);
+            }
+            to {
+                opacity: 1;
+                top: 80px;
+                color: rgb(254, 100, 100);
+            }
+        }
+
+    .text_9{
+        position: absolute;
+        left: 232px;
+        top: 80px;
+        animation: show_9 ease-in-out 5.5s;
+    }
+        @keyframes show_9 {
+            from {
+                opacity: 0;
+                top: -390px;
+                color: rgb(255, 255, 255);
+            }
+            to {
+                opacity: 1;
+                top: 80px;
+                color: rgb(254, 100, 100);
+            }
+        }
+
+    .text_10{
+        position: absolute;
+        left: 248px;
+        top: 80px;
+        animation: show_10 ease-in-out 6s;
+    }
+        @keyframes show_10 {
+            from {
+                opacity: 0;
+                top: -390px;
+                color: rgb(255, 255, 255);
+            }
+            to {
+                opacity: 1;
+                top: 80px;
+                color: rgb(254, 100, 100);
+            }
+        }
+
+    .text_11{
+        position: absolute;
+        left: 270px;
+        top: 80px;
+        animation: show_11 ease-in-out 6.5s;
+    }
+        @keyframes show_11 {
+            from {
+                opacity: 0;
+                top: -390px;
+                color: rgb(255, 255, 255);
+            }
+            to {
+                opacity: 1;
+                top: 80px;
+                color: rgb(254, 100, 100);
+            }
+        }
+
+    .text_12{
+        position: absolute;
+        left: 292px;
+        top: 80px;
+        animation: show_12 ease-in-out 7s;
+    }
+        @keyframes show_12 {
+            from {
+                opacity: 0;
+                top: -390px;
+                color: rgb(255, 255, 255);
+            }
+            to {
+                opacity: 1;
+                top: 80px;
+                color: rgb(254, 100, 100);
+            }
+        }
+    
+    .text_13{
+        position: absolute;
+        left: 330px;
+        top: 80px;
+        animation: show_13 ease-in-out 7.5s;
+    }
+        @keyframes show_13 {
+            from {
+                opacity: 0;
+                top: -390px;
+                color: rgb(255, 255, 255);
+            }
+            to {
+                opacity: 1;
+                top: 80px;
+                color: rgb(254, 100, 100);
+            }
+        }
+
+    .text_14{
+        position: absolute;
+        left: 358px;
+        top: 80px;
+        animation: show_14 ease-in-out 8s;
+    }
+        @keyframes show_14 {
+            from {
+                opacity: 0;
+                top: -390px;
+                color: rgb(255, 255, 255);
+            }
+            to {
+                opacity: 1;
+                top: 80px;
+                color: rgb(254, 100, 100);
+            }
+        }
